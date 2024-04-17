@@ -1,0 +1,5 @@
+{
+    "git.enableCommitSigning": true,
+    "git-graph.repository.sign.commits": true,
+    "git-graph.repository.sign.tags": true
+}

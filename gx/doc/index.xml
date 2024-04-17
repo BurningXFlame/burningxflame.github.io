@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GX on BurningXFlame</title><link>https://www.bxflame.com/gx/doc/</link><description>Recent content in GX on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024-2026 BurningXFlame LLC.</copyright><lastBuildDate>Tue, 31 Dec 2024 10:11:50 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/gx/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/gx/doc/intro/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/intro/</guid><description>&lt;h1 id="gx---go-extended-libraries">GX - Go eXtended libraries&lt;/h1>
+&lt;p>GX is Go eXtended libraries to improve productivity, performance, reliability and security of your products at ease.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/gx/doc/pricing/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;p>&lt;strong>GX Commercial License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1P2oR4CTgG0b80VrbaoEehJM" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p>
+&lt;p>With the purchase of a commercial license,&lt;/p>
+&lt;ul>
+&lt;li>You may use GX in your own commercial products.&lt;/li>
+&lt;li>Customers and users of your products do not need to purchase their own license, as long as they are not developing their own commercial products with GX.&lt;/li>
+&lt;li>You are entitled to all future versions of GX.&lt;/li>
+&lt;/ul>
+&lt;br>
+Once you purchase a commercial license, an email will be sent to you about the following information:
+&lt;ul>
+&lt;li>A private repository where you download releases of GX.&lt;/li>
+&lt;li>A license file that&amp;rsquo;s required to use GX.&lt;/li>
+&lt;/ul>
+&lt;h2 id="contact">Contact&lt;/h2>
+&lt;p>For any question about pricing and licensing, &lt;a href="mailto:sales@bxflame.com?subject=GX Pricing/Licensing">contact us ↗&lt;/a>.&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/gx/doc/release/</link><pubDate>Wed, 03 Jul 2024 10:37:27 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/release/</guid><description>&lt;h2 id="v130">v1.3.0&lt;/h2>
+&lt;p>2024-10-22&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Event&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Processor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Stream Processing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Filter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Map&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Keyed Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Chain&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Distribute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Compound&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sources / Multi-Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sinks / Multi-Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Generic Data Structures&lt;/td>
+ &lt;td style="text-align: left">Sorted Slice&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-08&lt;/p></description></item></channel></rss>

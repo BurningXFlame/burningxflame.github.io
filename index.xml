@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Effortlessly Scale With Your Business on BurningXFlame</title><link>https://www.bxflame.com/</link><description>Recent content in Effortlessly Scale With Your Business on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024-2026 BurningXFlame LLC.</copyright><lastBuildDate>Tue, 31 Dec 2024 10:11:50 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/meshless/doc/intro/</link><pubDate>Fri, 02 Aug 2024 14:18:01 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/meshless/doc/img/meshless_hu6816978689216709935.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="meshless---high-performance-sidecarless-service-mesh">Meshless - High-Performance Sidecarless Service Mesh&lt;/h1>
+&lt;p>Speed up your cloud with the most performant service mesh.&lt;br>
+99% less resource consumption than sidecar pattern of service mesh.&lt;br>
+Completely eliminate the network latency caused by sidecar pattern of service mesh.&lt;br>
+Even eliminate the network latency of direct communication.&lt;br>
+Real-time optimal routing.&lt;/p></description></item><item><title>Intro</title><link>https://www.bxflame.com/xts/doc/intro/</link><pubDate>Wed, 29 May 2024 10:29:25 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/xts/doc/img/xts_hu14122487979840384869.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="xts---secure-and-adaptive-cross-region-transmission-for-cloud">XTS - Secure and Adaptive Cross-Region Transmission for Cloud&lt;/h1>
+&lt;p>XTS is a Cloud-Native Cross-Region Transmission Service which&lt;br>
+improves the security of Cross-Region Transmission,&lt;br>
+and provides Adaptive and Fair Hierarchical Transmission Control.&lt;/p></description></item><item><title>Intro</title><link>https://www.bxflame.com/gx/doc/intro/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/intro/</guid><description>&lt;h1 id="gx---go-extended-libraries">GX - Go eXtended libraries&lt;/h1>
+&lt;p>GX is Go eXtended libraries to improve productivity, performance, reliability and security of your products at ease.&lt;/p></description></item><item><title>Intro</title><link>https://www.bxflame.com/dcs/doc/intro/</link><pubDate>Mon, 06 May 2024 11:20:21 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/dcs/doc/img/dcs_hu6671644029628747768.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="dcs---horizontally-scalable-cron-for-cloud">DCS - Horizontally Scalable Cron for Cloud&lt;/h1>
+&lt;p>DCS is a Cloud-Native Job Scheduling System that effortlessly scales with your business.&lt;/p></description></item><item><title>Use</title><link>https://www.bxflame.com/meshless/doc/use/</link><pubDate>Mon, 05 Aug 2024 16:32:22 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/use/</guid><description>&lt;h2 id="meshlet">Meshlet&lt;/h2>
+&lt;p>A meshlet is a logical entity, which can be a client that uses services provided by other meshlets, or a server that provides services for other meshlets to use, or both.&lt;/p></description></item><item><title>Use</title><link>https://www.bxflame.com/xts/doc/use/</link><pubDate>Wed, 29 May 2024 19:36:15 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/use/</guid><description>&lt;h2 id="define-a-region">Define a Region&lt;/h2>
+&lt;p>Define a Region via CR:&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">apiVersion&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ext.burningxflame.github.com/v1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">kind&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">metadata&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">namespace&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;ns&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;name&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">spec&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># the internal port of XTS for the destination region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">internalPort&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;port&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># the external (i.e. public) address of XTS of the destination region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">externalAddr&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>Define a &lt;code>Region&lt;/code> for each destination region.&lt;br>
+Usually you define &lt;code>Region&lt;/code>s to be referenced by &lt;code>Dst&lt;/code>s.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/gx/doc/pricing/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;p>&lt;strong>GX Commercial License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1P2oR4CTgG0b80VrbaoEehJM" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p>
+&lt;p>With the purchase of a commercial license,&lt;/p>
+&lt;ul>
+&lt;li>You may use GX in your own commercial products.&lt;/li>
+&lt;li>Customers and users of your products do not need to purchase their own license, as long as they are not developing their own commercial products with GX.&lt;/li>
+&lt;li>You are entitled to all future versions of GX.&lt;/li>
+&lt;/ul>
+&lt;br>
+Once you purchase a commercial license, an email will be sent to you about the following information:
+&lt;ul>
+&lt;li>A private repository where you download releases of GX.&lt;/li>
+&lt;li>A license file that&amp;rsquo;s required to use GX.&lt;/li>
+&lt;/ul>
+&lt;h2 id="contact">Contact&lt;/h2>
+&lt;p>For any question about pricing and licensing, &lt;a href="mailto:sales@bxflame.com?subject=GX Pricing/Licensing">contact us ↗&lt;/a>.&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/meshless/doc/features/</link><pubDate>Wed, 07 Aug 2024 10:19:44 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/features/</guid><description>&lt;h2 id="performance">Performance&lt;/h2>
+&lt;h3 id="99-less-resource-consumption-than-the-competition">99% Less Resource Consumption than the Competition&lt;/h3>
+&lt;p>&lt;a href="../intro/#high-resource-consumption" >
+ Problems of Sidecar Pattern of Service Mesh (I) - High Resource Consumption
+ 
+&lt;/a>
+&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/gx/doc/release/</link><pubDate>Wed, 03 Jul 2024 10:37:27 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/release/</guid><description>&lt;h2 id="v130">v1.3.0&lt;/h2>
+&lt;p>2024-10-22&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Event&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Processor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Stream Processing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Filter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Map&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Keyed Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Chain&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Distribute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Compound&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sources / Multi-Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sinks / Multi-Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Generic Data Structures&lt;/td>
+ &lt;td style="text-align: left">Sorted Slice&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-08&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/xts/doc/features/</link><pubDate>Thu, 30 May 2024 11:25:03 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/features/</guid><description>&lt;h2 id="function">Function&lt;/h2>
+&lt;h3 id="cross-region-transmission">Cross-Region Transmission&lt;/h3>
+&lt;p>XTS establishes secure tunnels between regions, and enables cross-region transmission.&lt;/p>
+&lt;h3 id="multiple-regions">Multiple Regions&lt;/h3>
+&lt;p>XTS supports multiple regions. You may define as many regions as you like.&lt;/p></description></item></channel></rss>

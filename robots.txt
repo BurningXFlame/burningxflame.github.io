@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Sitemap: https://www.bxflame.com/sitemap.xml
+Disallow: /cdn-cgi/

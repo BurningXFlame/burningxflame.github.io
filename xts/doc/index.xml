@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XTS on BurningXFlame</title><link>https://www.bxflame.com/xts/doc/</link><description>Recent content in XTS on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024-2026 BurningXFlame LLC.</copyright><lastBuildDate>Tue, 31 Dec 2024 10:11:50 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/xts/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/xts/doc/intro/</link><pubDate>Wed, 29 May 2024 10:29:25 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/xts/doc/img/xts_hu14122487979840384869.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="xts---secure-and-adaptive-cross-region-transmission-for-cloud">XTS - Secure and Adaptive Cross-Region Transmission for Cloud&lt;/h1>
+&lt;p>XTS is a Cloud-Native Cross-Region Transmission Service which&lt;br>
+improves the security of Cross-Region Transmission,&lt;br>
+and provides Adaptive and Fair Hierarchical Transmission Control.&lt;/p></description></item><item><title>Use</title><link>https://www.bxflame.com/xts/doc/use/</link><pubDate>Wed, 29 May 2024 19:36:15 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/use/</guid><description>&lt;h2 id="define-a-region">Define a Region&lt;/h2>
+&lt;p>Define a Region via CR:&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">apiVersion&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ext.burningxflame.github.com/v1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">kind&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">metadata&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">namespace&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;ns&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;name&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">spec&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># the internal port of XTS for the destination region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">internalPort&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;port&amp;gt;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># the external (i.e. public) address of XTS of the destination region&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">externalAddr&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>Define a &lt;code>Region&lt;/code> for each destination region.&lt;br>
+Usually you define &lt;code>Region&lt;/code>s to be referenced by &lt;code>Dst&lt;/code>s.&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/xts/doc/features/</link><pubDate>Thu, 30 May 2024 11:25:03 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/features/</guid><description>&lt;h2 id="function">Function&lt;/h2>
+&lt;h3 id="cross-region-transmission">Cross-Region Transmission&lt;/h3>
+&lt;p>XTS establishes secure tunnels between regions, and enables cross-region transmission.&lt;/p>
+&lt;h3 id="multiple-regions">Multiple Regions&lt;/h3>
+&lt;p>XTS supports multiple regions. You may define as many regions as you like.&lt;/p></description></item><item><title>ATC</title><link>https://www.bxflame.com/xts/doc/atc/</link><pubDate>Thu, 30 May 2024 11:25:11 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/atc/</guid><description>&lt;p>Adaptive and Fair Hierarchical Transmission Control.&lt;/p>
+&lt;h3 id="hierarchical">Hierarchical&lt;/h3>
+&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/xts/doc/img/atc-1_hu712084771450467121.webp"
+ width="2504"
+ height="1766"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;p>For example,&lt;/p>
+&lt;ul>
+&lt;li>the bandwidth is 1G/s&lt;/li>
+&lt;li>there are three priorities: S, A, and B, and the bandwidth ratio is 5:3:2.&lt;/li>
+&lt;/ul>
+&lt;p>then the bandwidth of each priority is: S 500M/s, A 300M/s, B 200M/s,&lt;br>
+even if the original speed of some priority is higher than its quota.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/xts/doc/pricing/</link><pubDate>Thu, 30 May 2024 09:32:23 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;div class="row text-center align-items-center">
+&lt;div class="col-lg-7">
+&lt;p>&lt;strong>XTS Commercial License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1Qbv0ECTgG0b80Vr4zZr1p7v" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p>
+&lt;/div>
+&lt;div class="col-lg-7">
+&lt;p>&lt;strong>XTS Commercial Add-On License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1Qbv9dCTgG0b80VrfxrLLh4X" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p></description></item><item><title>RESTful</title><link>https://www.bxflame.com/xts/doc/rest/</link><pubDate>Tue, 25 Jun 2024 14:25:52 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/rest/</guid><description>&lt;h2 id="createupdate-a-region">Create/Update a Region&lt;/h2>
+&lt;p>&lt;strong>Request&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Method: &lt;code>PUT&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>URL: &lt;code>https://&amp;lt;host:port&amp;gt;/regions/&amp;lt;namespace&amp;gt;/&amp;lt;name&amp;gt;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Header: &lt;code>Content-Type: application/json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Body:&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;internalPort&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="err">&amp;lt;port&amp;gt;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;externalAddr&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>View &lt;a href="../use/#define-a-region" >
+ Use
+ 
+&lt;/a>
+ for detailed description of each field.&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/xts/doc/release/</link><pubDate>Wed, 03 Jul 2024 09:50:12 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/release/</guid><description>&lt;h2 id="v130">v1.3.0&lt;/h2>
+&lt;p>2024-09-07&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">1-RTT Handshake&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-07-03&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Add-On&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">ATC&lt;/td>
+ &lt;td style="text-align: left">Adaptive and Fair Hierarchical Transmission Control&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v110">v1.1.0&lt;/h2>
+&lt;p>2024-06-25&lt;/p></description></item><item><title>Installation</title><link>https://www.bxflame.com/xts/doc/install/</link><pubDate>Wed, 10 Jul 2024 09:19:06 +0800</pubDate><guid>https://www.bxflame.com/xts/doc/install/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;h3 id="cert-manager">Cert Manager&lt;/h3>
+&lt;p>XTS depends on &lt;a href="https://cert-manager.io/" target="_blank" >
+ cert-manager
+ ↗ 
+&lt;/a>
+ to issue certificates.&lt;/p>
+&lt;p>You&amp;rsquo;ve probably been using cert-manager. If so, you can skip this section.&lt;/p></description></item></channel></rss>

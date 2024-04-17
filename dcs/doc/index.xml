@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DCS on BurningXFlame</title><link>https://www.bxflame.com/dcs/doc/</link><description>Recent content in DCS on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024-2026 BurningXFlame LLC.</copyright><lastBuildDate>Tue, 31 Dec 2024 10:11:50 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/dcs/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/dcs/doc/intro/</link><pubDate>Mon, 06 May 2024 11:20:21 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/dcs/doc/img/dcs_hu6671644029628747768.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="dcs---horizontally-scalable-cron-for-cloud">DCS - Horizontally Scalable Cron for Cloud&lt;/h1>
+&lt;p>DCS is a Cloud-Native Job Scheduling System that effortlessly scales with your business.&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/dcs/doc/features/</link><pubDate>Mon, 06 May 2024 11:37:58 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/features/</guid><description>&lt;h2 id="function">Function&lt;/h2>
+&lt;h3 id="define-a-job">Define a Job&lt;/h3>
+&lt;p>Just define a job via CR. The job will reliably run as expected.&lt;/p>
+&lt;p>Let&amp;rsquo;s start with the simplest example.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/dcs/doc/pricing/</link><pubDate>Mon, 06 May 2024 11:20:21 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;div class="row text-center align-items-center">
+&lt;div class="col-lg-7">
+&lt;p>&lt;strong>DCS Commercial Pro License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1QbvULCTgG0b80VrWZcknvBU" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p>
+&lt;/div>
+&lt;div class="col-lg-8">
+&lt;p>&lt;strong>DCS Commercial Enterprise License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1QbvVcCTgG0b80VrOeY3P8LX" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p></description></item><item><title>RESTful</title><link>https://www.bxflame.com/dcs/doc/rest/</link><pubDate>Mon, 24 Jun 2024 18:43:19 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/rest/</guid><description>&lt;h2 id="createupdate-a-job">Create/Update a Job&lt;/h2>
+&lt;p>&lt;strong>Request&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Method: &lt;code>PUT&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>URL: &lt;code>https://&amp;lt;host:port&amp;gt;/jobs/&amp;lt;namespace&amp;gt;/&amp;lt;name&amp;gt;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Header: &lt;code>Content-Type: application/json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Body:&lt;br>
+As follows are some of the fields. To learn more, view the &lt;a href="../features/" >
+ Complete List of All Features
+ 
+&lt;/a>
+.&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/dcs/doc/release/</link><pubDate>Wed, 03 Jul 2024 09:19:54 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/release/</guid><description>&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-13&lt;/p>
+&lt;p>Since v1.2.0, DCS Enterprise can communicate with other services via &lt;a href="https://www.bxflame.com/meshless/doc/intro/" >
+ Meshless
+ 
+&lt;/a>
+.&lt;br>
+You may choose to run DCS Enterprise in the standard mode or the new Meshless mode.&lt;/p></description></item><item><title>Pro Installation</title><link>https://www.bxflame.com/dcs/doc/pro_install/</link><pubDate>Wed, 10 Jul 2024 10:11:39 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/pro_install/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;h3 id="cert-manager">Cert Manager&lt;/h3>
+&lt;p>DCS RESTful server depends on &lt;a href="https://cert-manager.io/" target="_blank" >
+ cert-manager
+ ↗ 
+&lt;/a>
+ to issue certificates.&lt;/p>
+&lt;p>You&amp;rsquo;ve probably been using cert-manager. If so, you can skip this section.&lt;/p></description></item><item><title>Enterprise Installation</title><link>https://www.bxflame.com/dcs/doc/ent_install/</link><pubDate>Wed, 10 Jul 2024 10:12:16 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/ent_install/</guid><description>&lt;p>Since &lt;a href="../release/#v120" >
+ v1.2.0
+ 
+&lt;/a>
+, DCS Enterprise can communicate with other services via &lt;a href="https://www.bxflame.com/meshless/doc/intro/" >
+ Meshless
+ 
+&lt;/a>
+.&lt;br>
+You may choose to run DCS Enterprise in the standard mode or the new Meshless mode.&lt;/p></description></item></channel></rss>

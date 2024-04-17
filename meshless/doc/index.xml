@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meshless on BurningXFlame</title><link>https://www.bxflame.com/meshless/doc/</link><description>Recent content in Meshless on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024-2026 BurningXFlame LLC.</copyright><lastBuildDate>Tue, 31 Dec 2024 10:11:50 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/meshless/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/meshless/doc/intro/</link><pubDate>Fri, 02 Aug 2024 14:18:01 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/meshless/doc/img/meshless_hu6816978689216709935.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="meshless---high-performance-sidecarless-service-mesh">Meshless - High-Performance Sidecarless Service Mesh&lt;/h1>
+&lt;p>Speed up your cloud with the most performant service mesh.&lt;br>
+99% less resource consumption than sidecar pattern of service mesh.&lt;br>
+Completely eliminate the network latency caused by sidecar pattern of service mesh.&lt;br>
+Even eliminate the network latency of direct communication.&lt;br>
+Real-time optimal routing.&lt;/p></description></item><item><title>Use</title><link>https://www.bxflame.com/meshless/doc/use/</link><pubDate>Mon, 05 Aug 2024 16:32:22 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/use/</guid><description>&lt;h2 id="meshlet">Meshlet&lt;/h2>
+&lt;p>A meshlet is a logical entity, which can be a client that uses services provided by other meshlets, or a server that provides services for other meshlets to use, or both.&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/meshless/doc/features/</link><pubDate>Wed, 07 Aug 2024 10:19:44 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/features/</guid><description>&lt;h2 id="performance">Performance&lt;/h2>
+&lt;h3 id="99-less-resource-consumption-than-the-competition">99% Less Resource Consumption than the Competition&lt;/h3>
+&lt;p>&lt;a href="../intro/#high-resource-consumption" >
+ Problems of Sidecar Pattern of Service Mesh (I) - High Resource Consumption
+ 
+&lt;/a>
+&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/meshless/doc/pricing/</link><pubDate>Wed, 07 Aug 2024 09:09:17 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;p>&lt;strong>Meshless Commercial License&lt;/strong>&lt;/p>
+&lt;script async src="https://js.stripe.com/v3/buy-button.js">&lt;/script>
+&lt;p>&lt;stripe-buy-button buy-button-id="buy_btn_1Qbu1ICTgG0b80VrBQ4uxNS8" publishable-key="pk_live_51P2kNRCTgG0b80Vrm9YZ9GMMKBiwxq8SNVb6E78CeCcRdNvayNXnWuQBl8TvHTvWLNGcJFFSOvdn5khoHa7tkyio00cmX7l8Mm">&lt;/stripe-buy-button>&lt;/p>
+&lt;p>14-Day 100% Money-Back Guarantee.&lt;/p>
+&lt;br>
+With the purchase of a commercial license,
+&lt;ul>
+&lt;li>you may install and run the Software on an unlimited number of Hosts.&lt;/li>
+&lt;li>You are entitled to all future versions of the Software.&lt;/li>
+&lt;/ul>
+&lt;p>&amp;ldquo;Software&amp;rdquo; means Meshless.&lt;br>
+&amp;ldquo;Host&amp;rdquo; means any physical or virtual machine which is controlled by you.&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/meshless/doc/release/</link><pubDate>Wed, 07 Aug 2024 09:09:38 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/release/</guid><description>&lt;h2 id="v111">v1.1.1&lt;/h2>
+&lt;p>2024-09-07&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">1-RTT Handshake&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v110">v1.1.0&lt;/h2>
+&lt;p>2024-09-05&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Traffic Management&lt;/td>
+ &lt;td style="text-align: left">Canary Deployment Strategy&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v100">v1.0.0&lt;/h2>
+&lt;p>2024-08-09&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">99% Less Resource Consumption than Sidecar Pattern of Service Mesh&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">Completely Eliminate the Network Latency Caused by Sidecar Pattern of Service Mesh&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">Even Eliminate the Network Latency of Direct Communication&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Performance&lt;/td>
+ &lt;td style="text-align: left">Real-Time Optimal Routing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Traffic Management&lt;/td>
+ &lt;td style="text-align: left">Real-Time Optimal Routing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Traffic Management&lt;/td>
+ &lt;td style="text-align: left">Access Control&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Traffic Management&lt;/td>
+ &lt;td style="text-align: left">Circuit Breaker&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Traffic Management&lt;/td>
+ &lt;td style="text-align: left">Idle Timeout&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Security&lt;/td>
+ &lt;td style="text-align: left">Secure Tunnels&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Security&lt;/td>
+ &lt;td style="text-align: left">Access Control&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Security&lt;/td>
+ &lt;td style="text-align: left">Defend Against DDoS Attacks&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Security&lt;/td>
+ &lt;td style="text-align: left">Defend Against Slow Attacks&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Security&lt;/td>
+ &lt;td style="text-align: left">Close Idle Connections&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Scalability&lt;/td>
+ &lt;td style="text-align: left">Horizontal Scaling&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Truly Distributed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Load Balanced&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Established Connections Remain Intact on Config Changes&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime During Scaling Out/In&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime During Upgrade&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime on Temporary Errors&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime on Process Crash&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Deployment&lt;/td>
+ &lt;td style="text-align: left">Docker Image and Helm Chart&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Upgrade&lt;/td>
+ &lt;td style="text-align: left">Seamlessly Upgrade to a New Version&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Installation</title><link>https://www.bxflame.com/meshless/doc/install/</link><pubDate>Wed, 07 Aug 2024 09:09:56 +0800</pubDate><guid>https://www.bxflame.com/meshless/doc/install/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;h3 id="cert-manager">Cert Manager&lt;/h3>
+&lt;p>Meshless depends on &lt;a href="https://cert-manager.io/" target="_blank" >
+ cert-manager
+ ↗ 
+&lt;/a>
+ to issue certificates.&lt;/p>
+&lt;p>You&amp;rsquo;ve probably been using cert-manager. If so, you can skip this section.&lt;/p></description></item></channel></rss>
