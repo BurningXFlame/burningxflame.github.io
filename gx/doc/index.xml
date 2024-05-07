@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GX on BurningXFlame</title><link>https://www.bxflame.com/gx/doc/</link><description>Recent content in GX on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024 BurningXFlame LLC.</copyright><lastBuildDate>Mon, 21 Oct 2024 13:44:24 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/gx/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/gx/doc/intro/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/intro/</guid><description>&lt;h1 id="gx---go-extended-libraries">GX - Go eXtended libraries&lt;/h1>
+&lt;p>GX is Go eXtended libraries to improve productivity, performance, reliability and security of your products at ease.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/gx/doc/pricing/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">GX&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">License&lt;/td>
+ &lt;td style="text-align: left">Commercial License&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Features&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="../intro/#features" >
+ Learn More
+ → 
+&lt;/a>
+&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Support&lt;/td>
+ &lt;td style="text-align: left">Email&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://buy.stripe.com/bIYcOQ5pU7AweDS6op" target="_blank" >
+ Buy
+ ↗ 
+&lt;/a>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>With the purchase of a commercial license:&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/gx/doc/release/</link><pubDate>Wed, 03 Jul 2024 10:37:27 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/release/</guid><description>&lt;h2 id="v130">v1.3.0&lt;/h2>
+&lt;p>2024-10-22&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Event&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Processor&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Types / Stream Processing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Filter&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Map&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Basic Processors / Keyed Reduce&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Count Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Tumbling Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Sliding Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Time Window Processors / Keyed Session Window&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Chain&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Distribute&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Processors / Compound&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sources / Multi-Source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Stream Processing&lt;/td>
+ &lt;td style="text-align: left">Composite Sinks / Multi-Sink&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Generic Data Structures&lt;/td>
+ &lt;td style="text-align: left">Sorted Slice&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-08&lt;/p></description></item></channel></rss>
