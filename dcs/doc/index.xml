@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DCS on BurningXFlame</title><link>https://www.bxflame.com/dcs/doc/</link><description>Recent content in DCS on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024 BurningXFlame LLC.</copyright><lastBuildDate>Wed, 14 Aug 2024 09:37:42 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/dcs/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/dcs/doc/intro/</link><pubDate>Mon, 06 May 2024 11:20:21 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/intro/</guid><description>&lt;p>
+
+&lt;img
+ src="https://www.bxflame.com/dcs/doc/img/dcs_hu4662861684622931657.webp"
+ width="1400"
+ height="1050"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt=" "id="h-rh-i-0"
+/>&lt;/p>
+&lt;h1 id="dcs---horizontally-scalable-cron-for-cloud">DCS - Horizontally Scalable Cron for Cloud&lt;/h1>
+&lt;p>DCS is a Cloud-Native Job Scheduling System that effortlessly scales with your business.&lt;/p></description></item><item><title>Features</title><link>https://www.bxflame.com/dcs/doc/features/</link><pubDate>Mon, 06 May 2024 11:37:58 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/features/</guid><description>&lt;h2 id="function">Function&lt;/h2>
+&lt;h3 id="define-a-job">Define a Job&lt;/h3>
+&lt;p>Just define a job via CR. The job will reliably run as expected.&lt;/p>
+&lt;p>Let&amp;rsquo;s start with the simplest example.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/dcs/doc/pricing/</link><pubDate>Mon, 06 May 2024 11:20:21 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;th style="text-align: left">DCS Pro&lt;/th>
+ &lt;th style="text-align: left">DCS Enterprise&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Audience&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Small Business&lt;/td>
+ &lt;td style="text-align: left">Medium to Large Companies&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Cron Job&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Time Zone&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Periodic Job&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">HTTP Callback&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">HTTP Callback with Header and/or Body&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">TCP Callback&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">HTTP over UDS Callback&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">HTTP over UDS Callback with Header and/or Body&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">UDS Callback&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Callback with Retry&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Callback with Timeout&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Time Zone Change&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Job History&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Function&lt;/td>
+ &lt;td style="text-align: left">Limit Schedule Times&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Scalability&lt;/td>
+ &lt;td style="text-align: left">Vertical Scaling&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Scalability&lt;/td>
+ &lt;td style="text-align: left">Horizontal Scaling&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Architecture&lt;/td>
+ &lt;td style="text-align: left">Active-Standby&lt;/td>
+ &lt;td style="text-align: left">Truly Distributed,&lt;br>Load Balanced,&lt;br>Horizontally Scalable&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime During Scaling Out/In&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime During Upgrade&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime on Time Zone Changes&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime on Temporary Errors&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Reliability&lt;/td>
+ &lt;td style="text-align: left">Zero Downtime on Process Crash&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">API&lt;/td>
+ &lt;td style="text-align: left">CR&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">API&lt;/td>
+ &lt;td style="text-align: left">RESTful&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Deployment&lt;/td>
+ &lt;td style="text-align: left">Docker Image and Helm Chart&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Upgrade&lt;/td>
+ &lt;td style="text-align: left">Seamlessly Upgrade to a New Version&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Upgrade&lt;/td>
+ &lt;td style="text-align: left">Seamlessly Upgrade from Pro&lt;/td>
+ &lt;td style="text-align: left">-&lt;/td>
+ &lt;td style="text-align: left">✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Support&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Email&lt;/td>
+ &lt;td style="text-align: left">Email&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">License&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">Commercial Pro License&lt;/td>
+ &lt;td style="text-align: left">Commercial Enterprise License&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://buy.stripe.com/eVadSU4lQ3kg7bq7su" target="_blank" >
+ Buy
+ ↗ 
+&lt;/a>
+&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://buy.stripe.com/14kcOQg4y8EAanC6or" target="_blank" >
+ Buy
+ ↗ 
+&lt;/a>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>With the purchase of a commercial license:&lt;/p></description></item><item><title>RESTful</title><link>https://www.bxflame.com/dcs/doc/rest/</link><pubDate>Mon, 24 Jun 2024 18:43:19 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/rest/</guid><description>&lt;h2 id="createupdate-a-job">Create/Update a Job&lt;/h2>
+&lt;p>&lt;strong>Request&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Method: &lt;code>PUT&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>URL: &lt;code>https://&amp;lt;host:port&amp;gt;/jobs/&amp;lt;namespace&amp;gt;/&amp;lt;name&amp;gt;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Header: &lt;code>Content-Type: application/json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Body:&lt;br>
+As follows are some of the fields. To learn more, view the &lt;a href="../features/" >
+ Complete List of All Features
+ 
+&lt;/a>
+.&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/dcs/doc/release/</link><pubDate>Wed, 03 Jul 2024 09:19:54 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/release/</guid><description>&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-13&lt;/p>
+&lt;p>Since v1.2.0, DCS Enterprise can communicate with other services via &lt;a href="https://www.bxflame.com/meshless/doc/intro/" >
+ Meshless
+ 
+&lt;/a>
+.&lt;br>
+You may choose to run DCS Enterprise in the standard mode or the new Meshless mode.&lt;/p></description></item><item><title>Pro Installation</title><link>https://www.bxflame.com/dcs/doc/pro_install/</link><pubDate>Wed, 10 Jul 2024 10:11:39 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/pro_install/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;h3 id="cert-manager">Cert Manager&lt;/h3>
+&lt;p>DCS RESTful server depends on &lt;a href="https://cert-manager.io/" target="_blank" >
+ cert-manager
+ ↗ 
+&lt;/a>
+ to issue certificates.&lt;/p>
+&lt;p>You&amp;rsquo;ve probably been using cert-manager. If so, you can skip this section.&lt;/p></description></item><item><title>Enterprise Installation</title><link>https://www.bxflame.com/dcs/doc/ent_install/</link><pubDate>Wed, 10 Jul 2024 10:12:16 +0800</pubDate><guid>https://www.bxflame.com/dcs/doc/ent_install/</guid><description>&lt;p>Since &lt;a href="../release/#v120" >
+ v1.2.0
+ 
+&lt;/a>
+, DCS Enterprise can communicate with other services via &lt;a href="https://www.bxflame.com/meshless/doc/intro/" >
+ Meshless
+ 
+&lt;/a>
+.&lt;br>
+You may choose to run DCS Enterprise in the standard mode or the new Meshless mode.&lt;/p></description></item></channel></rss>
