@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GX on BurningXFlame</title><link>https://www.bxflame.com/gx/doc/</link><description>Recent content in GX on BurningXFlame</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2024 BurningXFlame LLC.</copyright><lastBuildDate>Sat, 10 Aug 2024 13:29:02 +0800</lastBuildDate><atom:link href="https://www.bxflame.com/gx/doc/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://www.bxflame.com/gx/doc/intro/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/intro/</guid><description>&lt;h1 id="gx---go-extended-lib">GX - Go eXtended lib&lt;/h1>
+&lt;p>GX is a Go eXtended lib to improve productivity, performance, reliability and security of your products at ease.&lt;/p></description></item><item><title>Pricing</title><link>https://www.bxflame.com/gx/doc/pricing/</link><pubDate>Mon, 06 May 2024 16:21:40 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/pricing/</guid><description>&lt;h2 id="pricing-and-licensing">Pricing and Licensing&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">&lt;/th>
+ &lt;th style="text-align: left">GX Pro&lt;/th>
+ &lt;th style="text-align: left">GX Enterprise&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">License&lt;/td>
+ &lt;td style="text-align: left">Commercial Developer License&lt;/td>
+ &lt;td style="text-align: left">Commercial Organization License&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Number of Licensed Developers&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">Unlimited&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Support&lt;/td>
+ &lt;td style="text-align: left">Email&lt;/td>
+ &lt;td style="text-align: left">Email&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://buy.stripe.com/dR6024g4y0847bq4gg" target="_blank" >
+ Buy
+ ↗ 
+&lt;/a>
+&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://buy.stripe.com/bIYcOQ5pU7AweDS6op" target="_blank" >
+ Buy
+ ↗ 
+&lt;/a>
+&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>With the purchase of a commercial license:&lt;/p></description></item><item><title>Release History</title><link>https://www.bxflame.com/gx/doc/release/</link><pubDate>Wed, 03 Jul 2024 10:37:27 +0800</pubDate><guid>https://www.bxflame.com/gx/doc/release/</guid><description>&lt;h2 id="v120">v1.2.0&lt;/h2>
+&lt;p>2024-08-08&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Category&lt;/th>
+ &lt;th style="text-align: left">Feature&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Net&lt;/td>
+ &lt;td style="text-align: left">BiCopy&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Net&lt;/td>
+ &lt;td style="text-align: left">FakeConn/NewPair&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Net&lt;/td>
+ &lt;td style="text-align: left">Idle Timeout&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Sync&lt;/td>
+ &lt;td style="text-align: left">Generic Concurrency-Safe Map&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Sync&lt;/td>
+ &lt;td style="text-align: left">Generic Concurrency-Safe Set&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Unix Domain Socket&lt;/td>
+ &lt;td style="text-align: left">UDS Server&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Unix Domain Socket&lt;/td>
+ &lt;td style="text-align: left">Meshless Client&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Unix Domain Socket&lt;/td>
+ &lt;td style="text-align: left">Meshless HTTP Client&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Note&lt;/strong>:&lt;/p></description></item></channel></rss>
